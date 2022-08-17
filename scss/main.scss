@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 1216px;
+    height: 100%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+}
+
+.header_collection {
+    display: flex;
+    align-items: center;
+
+}
+
+.header_logo {
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav>a {
+    margin-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    text-decoration: none;
+}
+
+nav>button {
+    width: 92px;
+    height: 40px;
+    border: 1px solid #999999;
+    border-radius: 35px;
+    text-align: center;
+}
+
+nav>img {
+    margin-right: 40px;
+}
+
+nav>button>a {
+    margin-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    text-decoration: none;
+    margin: auto;
+
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    width: 100%;
+    margin-top: 100px;
+}
+.hero_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text {
+    width: 646px;
+    height: 260px;
+}
+
+.hero-text>h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 80px;
+    color: #000000;
+
+}
+
+.hero-text>p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+    margin-top: 30px;
+}
+
+.hero_data {
+    width: 500px;
+    height: 252px;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.04);
+    border-radius: 20px;
+}
+.hero-data-img-one{
+    padding-top: 50px;
+    padding-left: 20px;
+    margin-right: 24px;
+}
+.hero-data-img-three{
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.hero_img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.hero-img-one{
+    width: 900px;
+}
+.hero-img-two{
+    width: 300px;
+}
+.hero-img-twoo{
+    margin-bottom: 16px;
+}
